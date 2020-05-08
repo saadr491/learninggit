@@ -1,4 +1,73 @@
-h1,p,body{
+/* h1,p,body{
 color:red;
 background-color: aquamarine;
+} */
+
+
+
+
+/* body{
+    background-color: blue;
+} */
+img{
+    width:600px;
+}
+
+
+
+
+
+/* MEDIA QUERY:-
+@media only screen and (max-width:600px){  it will show the css uptill 600px width is reached  
+  img{
+      width:400px;
+  }
+ 
+}
+@media only screen and (max-width:400px){   it will show the css uptill 600px width is reached  
+    img{
+        width:200px;
+    }
+   
+  }*/
+
+
+/*FLEXBOX*/
+
+/*.main{
+    display:flex;    it will make 3 divs inline as #row 
+     flex-direction: column it will make line in #column 
+    flex-direction: row-reverse; it will reverse row  where three and one will switch 
+    justify-content:space-around ;  it will give same space to elements and looks hoizontal 
+flex-wrap:wrap ;  aglay div ko new line say shuru karay ga jb screen choty hogy
+  
+}*/
+
+/* .one,.two,.three{
+    border:2px solid red;
+     width: 250;
+} */
+/* it will adjust and make width responsive
+
+.one{
+    flex: 1;
+}
+.two{
+    flex: 3;
+}
+.three{
+    flex: 1;
+} */
+
+.red{
+    color:red;
+}
+.green{
+    color:green;
+}
+.blue{
+    color:blue;
+}
+.col{
+    background-color: pink ;
 }
